@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* styles.css */
+
+body {
+  margin: 0;
+  padding: 0;
+font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* background color for the page */
+}
+
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Dynamic grid */
+  gap: 20px;
+  padding: 20px;
+}
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures images are cropped properly */
+  border-radius: 8px; /* Adds rounded corners */
+  transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05); /* Zooms in slightly on hover */
+}
+
+.gallery-container {
+  background-color: #fff; /* Background color for the gallery */
+  border-radius: 10px; /* Rounded corners for the gallery container */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Subtle shadow around gallery */
+}
+
+  </style>
+</head>
+<body>
+  <div class="gallery-container">
+    <!-- Add 55 images below -->
+    <div class="gallery-item"><img src="https://static.vecteezy.com/system/resources/previews/022/694/473/large_2x/generative-ai-illustration-of-amazing-science-fiction-wallpaper-digital-art-sci-fiction-space-ship-universal-halo-photo.jpg" alt="Image 1"></div>
+    <div class="gallery-item"><img src="https://images.hdqwalls.com/wallpapers/planet-science-fiction-among-stars-4k-27.jpg" alt="Image 2"></div>
+    <div class="gallery-item"><img src="https://images.nightcafe.studio/jobs/lIHo3zNrRYGEBjU7Jn49/lIHo3zNrRYGEBjU7Jn49--1--5zq2m.jpg?tr=w-1600,c-at_max" alt="Image 3"></div>
+    <div class="gallery-item"><img src="https://www.sciencefictionideas.com/wp-content/uploads/2023/01/space-opera-600x480.jpg" alt="Image 4"></div>
+    <div class="gallery-item"><img src="https://img.freepik.com/premium-photo/battleship-fighting-space-monsters-another-galaxy_760214-1333.jpg" alt="Image 5"></div>
+    <div class="gallery-item"><img src="https://img.freepik.com/premium-photo/space-exploration-space-technologies-future-new-spaceship-design-nuclear-propulsion-space-ai-generative_72482-7199.jpg" alt="Image 6"></div>
+    <div class="gallery-item"><img src="https://t4.ftcdn.net/jpg/05/56/97/63/360_F_556976305_y33KHRUYz20cz7hcWl4PM0pwNDnBCIck.jpg" alt="Image 7"></div>
+    <div class="gallery-item"><img src="https://img.freepik.com/premium-photo/flying-spaceship-dystopian-landscape-concept-art_1059181-8958.jpg" alt="Image 8"></div>
+    <div class="gallery-item"><img src="https://img.freepik.com/premium-photo/flying-spaceship-dystopian-landscape-concept-art_1059181-8827.jpg" alt="Image 9"></div>
+    <div class="gallery-item"><img src="https://img.freepik.com/premium-photo/breathtakingly-futuristic-spaceship-created-with-generative-ai_574545-4231.jpg" alt="Image10"></div>
+    <div class="gallery-item"><img src="https://cdna.artstation.com/p/assets/images/images/057/126/812/large/ractor-studios-ractor-a-sleek-mesmerizing-and-reflective-metal-50kl-long-space-f27272be-60af-4254-9f48-2bb9b5c766ee.jpg?1670887738" alt="Image 11"></div>
+    <div class="gallery-item"><img src="https://img.freepik.com/premium-photo/spaceship-flying-earth-view-sky-architecture-final-vii-still-sci-cybernetically-enhanced-ship-med_938522-7220.jpg" alt="Image 12"></div>
+    <div class="gallery-item"><img src="https://img.freepik.com/premium-photo/station-technology-planet-satellite-orbit-science-spacecraft-space-ship-shuttle-star-cosmos-rocket-spaceship-astronaut-discovery-galaxy-astronomy-exploration-earth-universe_163305-242515.jpg" alt="Image 13"></div>
+    <div class="gallery-item"><img src="https://img.freepik.com/premium-photo/futuristic-space-station-orbit-generative-ai_742252-18476.jpg" alt="Image 14"></div>
+    <div class="gallery-item"><img src="https://img.freepik.com/premium-photo/space-station-lit-by-bright-star-3d-science-fiction-illustration_1029476-17587.jpg" alt="Image 15"></div>
+    <div class="gallery-item"><img src="https://img.freepik.com/premium-photo/interplanetary-atmospheric-digital-art-illustration_442940-8506.jpg" alt="Image 16"></div>
+<div class="gallery-item"><img src="https://img.freepik.com/premium-photo/planetary-assault-medical-support-digital-art-illustration_442940-8410.jpg" alt="Image 17"></div>
+    <div class="gallery-item"><img src="https://img.freepik.com/premium-photo/space-station-colony-distant-planet_674594-3212.jpg" alt="Image 18"></div>
+    <div class="gallery-item"><img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e6814f46-8601-437f-b1cb-b6bae6e8ea2a/dgxlf0c-61a5bdd4-5797-40fa-8e98-8c03f6b7fcfb.png/v1/fill/w_1192,h_670/future_routes_by_jerod64_dgxlf0c-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA4MCIsInBhdGgiOiJcL2ZcL2U2ODE0ZjQ2LTg2MDEtNDM3Zi1iMWNiLWI2YmFlNmU4ZWEyYVwvZGd4bGYwYy02MWE1YmRkNC01Nzk3LTQwZmEtOGU5OC04YzAzZjZiN2ZjZmIucG5nIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.1v3jEZoHCwU8tzMccA4uRz-8o7roE8zpL4Enjp8JLJU" alt="Image 19"></div>
+    <div class="gallery-item"><img src="https://img.freepik.com/premium-photo/3d-science-fiction-space-station-generative-ai_808510-907.jpg" alt="Image 20"></div>
+    <div class="gallery-item"><img src="https://img.freepik.com/premium-photo/man-stands-distance-pink-rocky-planet-ai-generated_106547-560.jpg" alt="Image 21"></div>
+    <div class="gallery-item"><img src="https://img.freepik.com/premium-photo/fantasy-landscape-with-planets-stars-space-3d-illustration_941097-7087.jpg" alt="Image 22"></div>
+    <div class="gallery-item"><img src="https://img.freepik.com/premium-photo/detailed-science-fiction-illustration_921860-11391.jpg" alt="Image 23"></div>
+    <div class="gallery-item"><img src="https://img.freepik.com/premium-photo/landscape-colorful-background-illustration-wallpaper_752057-3756.jpg" alt="Image 24"></div>
+    <div class="gallery-item"><img src="https://img.freepik.com/premium-photo/world-sky-with-sunset_908846-4363.jpg" alt="Image 25"></div>
+    <div class="gallery-item"><img src="https://www.sciencefictionideas.com/wp-content/uploads/2023/03/good-science-fiction.jpg" alt="Image 26"></div>
+    <div class="gallery-item"><img src="https://img.freepik.com/premium-photo/space-science-fiction-future-vector-retro-illustrations-astronaut-galaxy-planet-moon-space_777271-12081.jpg" alt="Image 27"></div>
+    <div class="gallery-item"><img src="https://img.freepik.com/premium-photo/asteroid-mining-colony_783884-12073.jpg" alt="Image 28"></div>
+    <div class="gallery-item"><img src="https://thumbs.dreamstime.com/b/virtual-reality-landscape-space-theme-retro-futurism-style-s-277084178.jpg" alt="Image 29"></div>
+    <div class="gallery-item"><img src="https://cdna.artstation.com/p/marketplace/presentation_assets/002/356/032/20230120151636/thumbnail/file.jpg?1674249394" alt="Image 30"></div>
+    <div class="gallery-item"><img src="https://as2.ftcdn.net/v2/jpg/05/74/44/69/1000_F_574446982_KC39o5RazTFIiuXRb5tZxi7qBlSxpiSJ.jpg" alt="Image 31"></div>
+    <div class="gallery-item"><img src="https://i.pinimg.com/736x/e4/27/a3/e427a300707f5c159e489120d8349518--spaceship-concept-concept-ships.jpg" alt="Image 32"></div>
+    <div class="gallery-item"><img src="https://img.freepik.com/premium-photo/futuristic-mars-spaceport-with-starships-resplendent_31965-396386.jpg" alt="Image 33"></div>
+    <div class="gallery-item"><img src="https://img.freepik.com/premium-photo/astronaut-drawing-space-full-color_378362-2892.jpg" alt="Image 34"></div>
+    <div class="gallery-item"><img src="https://img.freepik.com/premium-photo/astronaut-floating-in-the-air-with-a-glowing-helmet-and-a-glowing-body-generative-ai_900751-11066.jpg" alt="Image 35"></div>
+    <div class="gallery-item"><img src="https://thumbs.dreamstime.com/b/cosmodrome-view-spaceship-taking-off-entering-orbit-cosmodrome-view-spaceship-taking-off-entering-orbit-created-274186877.jpg" alt="Image 36"></div>
+    <div class="gallery-item"><img src="https://img.freepik.com/premium-photo/illustration-astronaut-planet_545448-16233.jpg" alt="Image 37"></div>
+    <div class="gallery-item"><img src="https://images.nightcafe.studio/jobs/t8DjBzvsnLvuMCs6zTUT/t8DjBzvsnLvuMCs6zTUT--1--w9c8a.jpg?tr=w-1600,c-at_max" alt="Image 38"></div>
+    <div class="gallery-item"><img src="https://www.wallpaperflare.com/static/530/1020/59/science-fiction-artwork-retro-science-fiction-spaceship-wallpaper.jpg" alt="Image 39"></div>
+    <div class="gallery-item"><img src="https://3.bp.blogspot.com/-JLr3h1lIkHQ/UYzovKWerzI/AAAAAAAAIqc/PpbuhQTfoXo/s1600/Galactic+Encounters+-+Dangerous+Frontiers+2+Angus+McKie.jpg" alt="Image 40"></div>
+    <div class="gallery-item"><img src="https://wallpapercave.com/wp/wp5172280.jpg" alt="Image 41"></div>
+    <div class="gallery-item"><img src="https://i.pinimg.com/originals/67/59/62/67596267ce088540fa2a2fec01a2f4dc.jpg" alt="Image 42"></div>
+    <div class="gallery-item"><img src="https://1.bp.blogspot.com/-Nj9tWu_fjOk/UqzYweuS_HI/AAAAAAABPA0/jEghpCnUiAQ/s1600/42+Chris+Moore+-+Kinsman.jpg" alt="Image 43"></div>
+    <div class="gallery-item"><img src="https://i.pinimg.com/736x/66/ed/aa/66edaafa1e7f7dbc090c77253a3b3685--space-opera-space-station.jpg" alt="Image 44"></div>
+    <div class="gallery-item"><img src="https://4.bp.blogspot.com/-PMWALsTaOo0/THZN4LXnv-I/AAAAAAAAFZI/ZXDdZt5pFTg/s1600/11+WANDERING+WORLDS.jpg" alt="Image 45"></div>
+    <div class="gallery-item"><img src="https://i.pinimg.com/originals/94/d9/4c/94d94c789d263b3657101a6e4fc95689.jpg" alt="Image 46"></div>
+    <div class="gallery-item"><img src="https://wallpapercave.com/wp/V5WwYo1.jpg" alt="Image 47"></div>
+    <div class="gallery-item"><img src="https://i.pinimg.com/736x/76/07/eb/7607eb3b5e9e36bbe6a0187724928f02--sci-fi-spaceships-chris-delia.jpg" alt="Image 48"></div>
+    <div class="gallery-item"><img src="https://i.pinimg.com/736x/c6/7c/bb/c67cbbec000b6d6756d555a4c5e95215.jpg" alt="Image 49"></div>
+    <div class="gallery-item"><img src="https://64.media.tumblr.com/302ae6157f395ba740a5bdd6f2aa0db5/tumblr_n5d8onxw891rv0p43o1_1280.jpg" alt="Image 50"></div>
+    <!-- Example images are placeholders; replace with actual image paths -->
+  </div>
+</body>
+</html>
