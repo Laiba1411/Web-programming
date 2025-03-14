@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Table</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .weather-table img {
+      width: 50px; /* adjust the size of the image */
+      height: 50px;
+      object-fit: cover;
+    }
+    .weather-table .column {
+      text-align: center;
+    }
+    .weather-table .date-text, .weather-table .temp-text {
+      font-size: 14px; /* small font size for text */
+    }
+  </style>
+</head>
+<body>
+
+<div class="container mt-4">
+  <table class="table table-bordered weather-table">
+    <thead>
+      <tr>
+        <th colspan="6">Weather Forecast</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <!-- Column 1 -->
+        <td class="column">
+          <div class="date-text">2025-03-11</div>
+          <img src="C:\Users\DELL\Downloads\weather02-512.webp">
+          <div class="temp-text">22°C</div>
+        </td>
+        <!-- Column 2 -->
+        <td class="column">
+          <div class="date-text">2025-03-12</div>
+          <img src="C:\Users\DELL\Downloads\weather02-512.webp">      
+         <div class="temp-text">23°C</div>
+        </td>
+        <!-- Column 3 -->
+        <td class="column">
+          <div class="date-text">2025-03-13</div>
+          <img src="C:\Users\DELL\Downloads\weather02-512.webp">
+          <div class="temp-text">21°C</div>
+        </td>
+        <!-- Column 4 -->
+        <td class="column">
+          <div class="date-text">2025-03-14</div>
+          <img src="C:\Users\DELL\Downloads\weather02-512.webp">
+          <div class="temp-text">25°C</div>
+        </td>
+        <!-- Column 5 -->
+        <td class="column">
+          <div class="date-text">2025-03-15</div>
+          <img src="C:\Users\DELL\Downloads\weather02-512.webp">
+          <div class="temp-text">18°C</div>
+        </td>
+        <!-- Column 6 -->
+        <td class="column">
+          <div class="date-text">2025-03-16</div>
+          <img src="C:\Users\DELL\Downloads\weather02-512.webp">
+          <div class="temp-text">19°C</div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
